@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Century Gothic;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .navbar {
@@ -16,20 +16,19 @@ header{
     background-position: center;
 }
 
-ul{
+.nav-bar ul{
     float: right;
     list-style-type: none;
     margin-top: 5px;
     margin-right: 10px;
 }
-
 .nav-bar ul li{
     display: inline-block;
-    border: green 1px solid;
+    border: black 1px solid;
     border-radius: 4px;
 }
 
-ul li a{
+.nav-bar ul li a{
     text-decoration: none;
     float: left;
     color: black;
@@ -41,8 +40,8 @@ ul li a{
     background-color: #fff;
 }
 
-ul li a:hover{
-    background-color: darkgreen;
+.nav-bar ul li a:hover{
+    background-color: black;
     color: #fff;
     font-weight: bold;
 }
@@ -61,30 +60,11 @@ ul li a:hover{
 
 .logo img{
     float: left;
-    width: 280px;
+    width: 220px;
     height: auto;
 }
 
 .main-content{
-    width: 93%;
-    float: center;
-    padding: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    height: 200px;
-    border-radius: 4px;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
-}
-
-.cookiesheader{
-    background-image: url(../images/cookiesheader.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-.cookies-main-content{
     width: 93%;
     float: center;
     padding: 20px;
@@ -97,6 +77,26 @@ ul li a:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
 
+.cookiesheader{
+    background-image: url(../images/cookiesheader.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.cookies-main-content{
+    width: 93%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 1400px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
 .IngredientsList ul li {
     list-style-type: none;
     font-size: 20px;
@@ -105,11 +105,77 @@ ul li a:hover{
     text-align: left;
     font-size: 18px;
 }
-.DirectionsList ul li {
-    list-style-type: none;
+
+.DirectionsList ol li {
+    list-style-type: ordered;
     font-size: 20px;
     text-decoration: none;
     color: black;
     text-align: left;
+    margin-left: 20px;
     font-size: 18px;
+}
+
+.table td {
+    text-align: center;
+}
+
+.pastaheader{
+    background-image: url(../images/pastaheader.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.pasta-main-content{
+    width: 93%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 1600px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.tacosheader{
+    background-image: url(../images/tacosheader.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.chickenheader{
+    background-image: url(../images/chickenheader.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.tacos-main-content{
+    width: 93%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 1700px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.chicken-main-content{
+    width: 93%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 1500px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
